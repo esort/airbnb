@@ -19,6 +19,8 @@ gem 'sass-rails'
 gem 'devise'
 # module pour des messages d erreur en francais
 gem 'devise-i18n'
+# module paperclip
+gem 'paperclip', '~> 4.3', '>= 4.3.6'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'

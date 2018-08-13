@@ -16,12 +16,11 @@
     <%= f.label :email %><br />
     <%= f.email_field :email, autofocus: true, autocomplete: "email", class: "form-control", placeholder:"Votre email"  %>
   </div>
-
-  <!-- pas utile pour la formation 
-<% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
-    <div>Currently waiting confirmation for: <%= resource.unconfirmed_email %></div>
-  <% end %> -->
-
+  
+  <div class="form-group">    
+    <%= f.file_field :avatar %>
+  </div>
+  
   <div class="form-group">
     <%= f.label :password %> <i>(laisser vide, si vous ne voulez pas le changer)</i><br />
     <%= f.password_field :password, autocomplete: "off", class: "form-control", placeholder:"Votre Mot de Passe si vous voulez le changer" %>
