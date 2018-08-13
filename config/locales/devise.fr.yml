@@ -33,8 +33,8 @@ fr:
       confirmed: Votre compte a été confirmé avec succès.
       new:
         resend_confirmation_instructions: Renvoyer les instructions de confirmation
-      send_instructions: Vous allez recevoir sous quelques minutes un courriel comportant des instructions pour confirmer votre compte.
-      send_paranoid_instructions: Si votre courriel existe sur notre base de données, vous recevrez sous quelques minutes un message avec des instructions pour confirmer votre compte.
+      send_instructions: Vous allez recevoir sous quelques minutes un email comportant des instructions pour confirmer votre compte.
+      send_paranoid_instructions: Si votre email existe sur notre base de données, vous recevrez sous quelques minutes un message avec des instructions pour confirmer votre compte.
     failure:
       already_authenticated: Vous êtes déjà connecté(e).
       inactive: Votre compte n’est pas encore activé.
@@ -44,17 +44,17 @@ fr:
       not_found_in_database: "%{authentication_keys} ou mot de passe incorrect."
       timeout: Votre session est expirée, veuillez vous reconnecter pour continuer.
       unauthenticated: Vous devez vous connecter ou vous enregistrer pour continuer.
-      unconfirmed: Vous devez confirmer votre compte par courriel.
+      unconfirmed: Vous devez confirmer votre compte par email.
     mailer:
       confirmation_instructions:
-        action: Confirmer mon courriel
+        action: Confirmer mon email
         greeting: Bienvenue %{recipient}!
-        instruction: 'Vous pouvez confirmer votre courriel grâce au lien ci-dessous:'
+        instruction: 'Vous pouvez confirmer votre email grâce au lien ci-dessous:'
         subject: Instructions de confirmation
       email_changed:
         greeting: Bonjour %{recipient}!
-        message: Nous vous contactons pour vous notifier que votre adresse de courriel a été changée en %{email}.
-        subject: Courriel modifié
+        message: Nous vous contactons pour vous notifier que votre adresse de email a été changée en %{email}.
+        subject: Email modifié
       password_change:
         greeting: Bonjour %{recipient}!
         message: Nous vous contactons pour vous notifier que votre mot de passe a été modifié.
@@ -63,7 +63,7 @@ fr:
         action: Changer mon mot de passe
         greeting: Bonjour %{recipient}!
         instruction: 'Quelqu''un a demandé un lien pour changer votre mot de passe, le voici :'
-        instruction_2: Si vous n'avez pas émis cette demande, merci d'ignorer ce courriel.
+        instruction_2: Si vous n'avez pas émis cette demande, merci d'ignorer ce email.
         instruction_3: Votre mot de passe ne changera pas tant que vous n'aurez pas cliqué sur ce lien et renseigné un nouveau mot de passe.
         subject: Instructions pour changer le mot de passe
       unlock_instructions:
