@@ -32,14 +32,14 @@ def update
               redirect to @room, notice:"Modification enregistrée..."
         else
            render :edit
-       end
+  end
 end   
   
 private 
       def set_room 
              @room = Room.find(params[:id])
       end  
-end
+
 
 def room_params 
       params.require(:room).permit(:home_type, :room_type, :accommodate, :bed_room, :bath_room, 
@@ -48,7 +48,4 @@ def room_params
                                    :active)
  end
 
-
-
-
-end
+ end

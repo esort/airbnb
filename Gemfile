@@ -15,6 +15,8 @@ gem 'coffee-rails', '~> 4.0.0'
 #bootstrap
 gem 'bootstrap-sass'
 gem 'sass-rails'
+# add icones
+gem 'font-awesome-sass'
 # module Devise connexion, inscription
 gem 'devise'
 # module pour des messages d erreur en francais
