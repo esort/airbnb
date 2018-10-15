@@ -28,6 +28,10 @@ gem 'paperclip', '~> 4.3', '>= 4.3.6'
 # module toast-rails
 gem 'toastr-rails'
 
+# video 27 reprise etude r on r
+# module
+gem ‘paperclip-cloudinary’
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks

@@ -39,12 +39,13 @@ end
   
 def update
   if @room.update(room_params)
-              redirect to @room, notice:"Modification enregistrée..."
+     redirect_to edit_room_path(@room), notice:"Modification enregistrée..." 
         else
            render :edit
-  end
+        end
 end   
-  
+ 
+
 private 
       def set_room 
              @room = Room.find(params[:id])
